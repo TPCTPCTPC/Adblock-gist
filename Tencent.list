@@ -1,0 +1,29 @@
+USER-AGENT,TencentConnect*
+DOMAIN-SUFFIX,3g.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN,3gimg.qq.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,fusion.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,oth.eve.mdt.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pingma.qq.com
+DOMAIN,pingtcss.qq.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,tajs.qq.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,weixinbridge.com
+URL-REGEX,^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
+URL-REGEX,^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads
+URL-REGEX,https://mp.weixin.qq.com/mp/appmsgpicreport
+AND,((DOMAIN,mp.weixin.qq.com), (NOT,((URL-REGEX,https://mp.weixin.qq.com/(s|intp|bizmall|mp/(newappmsgvote|get|videoplayer|homepage|lifedetail|author|profile|app))))))
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))

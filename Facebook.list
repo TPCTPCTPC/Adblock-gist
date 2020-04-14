@@ -1,0 +1,3 @@
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,staticxx.facebook.com
+URL-REGEX,^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js

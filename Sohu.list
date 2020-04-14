@@ -1,0 +1,4 @@
+URL-REGEX,^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense
+URL-REGEX,^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/
+URL-REGEX,^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json
+URL-REGEX,^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap

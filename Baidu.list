@@ -1,0 +1,17 @@
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN,afd.baidu.com
+DOMAIN,als.baidu.com
+DOMAIN,duclick.baidu.com
+DOMAIN,em.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,nsclick.baidu.com
+URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
+URL-REGEX,"^https?:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adx"
+URL-REGEX,"^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry"
+URL-REGEX,^https?://(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
+URL-REGEX,"^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads"

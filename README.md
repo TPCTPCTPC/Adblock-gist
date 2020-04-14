@@ -21,7 +21,6 @@ RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/*EXAMPL
 // Optional
 [MITM]
 hostname = %APPEND% a.example.com
-
 ```
 
 

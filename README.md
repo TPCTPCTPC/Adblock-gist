@@ -1,5 +1,5 @@
 # Adblock-gist
-Sorted Adblock rules for Surge iOS 4, compatible with Surge Module.
+Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Some abundant rules are removed/merged to Keywords.list&Suffixes.list
 
 🅰 Check the content before use.
 

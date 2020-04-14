@@ -24,8 +24,8 @@ hostname = %APPEND% an.example.com
 
 
 ### Credits:
-[Choler](https://github.com/Choler/Surge)
-[ConnersHua](https://github.com/ConnersHua/Profiles/tree/master)
-[lhie1](https://github.com/lhie1/Rules)
-[onewayticket255](https://github.com/onewayticket255/Surge-Script)
-[Yachen Liu](https://community.nssurge.com/d/225-module)
+- [Choler](https://github.com/Choler/Surge)
+- [ConnersHua](https://github.com/ConnersHua/Profiles/tree/master)
+- [lhie1](https://github.com/lhie1/Rules)
+- [onewayticket255](https://github.com/onewayticket255/Surge-Script)
+- [Yachen Liu](https://community.nssurge.com/d/225-module)

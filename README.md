@@ -9,17 +9,17 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Some abundan
 
 ## Create your own Surge Module:
 ```
-#!name=$yourname
-#!desc=$yourdescription
+#!name="$yourname"
+#!desc="$yourdescription"
 // Optional-ignore if you need both
-#!system=(ios/mac)
+#!system=("ios"/"mac")
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/*EXAMPLE*.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/"EXAMPLE.list",REJECT
 
 // Optional
 [MITM]
-hostname = %APPEND% a.example.com
+hostname = %APPEND% "a.example.com"
 ```
 
 

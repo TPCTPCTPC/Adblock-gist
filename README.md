@@ -21,8 +21,12 @@ RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/EXAMPLE
 [MITM]
 hostname = %APPEND% an.example.com
 ```
+### Why create your own *Module*?
 
-### Credits:
+It is your responsibility to avoid risks from the Man-In-The-Middle attack. 
+A remote *Module* can be easily incerted any new hostnames and Javascripts, which could significantly increase the risk of your networking safety, if the user did not notice the change when updating the *Module*.
+
+## Credits:
 - [Choler](https://github.com/Choler/Surge)
 - [ConnersHua](https://github.com/ConnersHua/Profiles/tree/master)
 - [Lãng Khách](https://github.com/langkhach270389/Scripting/tree/master/Surge)

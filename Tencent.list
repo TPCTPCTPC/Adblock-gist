@@ -23,7 +23,6 @@ DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,weixinbridge.com
 URL-REGEX,^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
-URL-REGEX,^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads
 URL-REGEX,https://mp.weixin.qq.com/mp/appmsgpicreport
 AND,((DOMAIN,mp.weixin.qq.com), (NOT,((URL-REGEX,https://mp.weixin.qq.com/(s|intp|bizmall|mp/(newappmsgvote|get|videoplayer|homepage|lifedetail|author|profile|app))))))
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))

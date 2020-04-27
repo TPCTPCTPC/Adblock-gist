@@ -12,5 +12,6 @@ DOMAIN,logs.chelaile.net.cn
 // Didi
 DOMAIN,adtrack.xiaojukeji.com
 DOMAIN,eos-marketing.es.xiaojukeji.com
-OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+DOMAIN,ct.xiaojukeji.com
+DOMAIN,gwp.xiaojukeji.com
 URL-REGEX,"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)"

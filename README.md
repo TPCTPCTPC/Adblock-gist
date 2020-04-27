@@ -5,6 +5,8 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Abundant rul
 
 🅱 MITM is required for URL-Regex rules.
 
+📍 Use AdGuard for a better effect on Safari.
+
 🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* are designed to break most functions of theirs!!
 
 ## Create your own Surge Module:

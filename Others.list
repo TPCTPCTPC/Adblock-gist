@@ -1,10 +1,5 @@
 DOMAIN,lbs.netese.im
 DOMAIN,lbs.qq.com
-DOMAIN,wmlog.meituan.com
-DOMAIN,report.meituan.com
-
 USER-AGENT,*AdSDK*
 USER-AGENT,*Splash*
 USER-AGENT,*Banner*
-
-URL-REGEX,^https?:\/\/(\w+\.)?(ads|log\w?|tj|tongji|stat|stats|statis|trace|track|tracking|click)\.\w+\.(com|cn|net)

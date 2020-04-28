@@ -9,6 +9,15 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Abundant rul
 
 🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* are designed to break most functions of theirs!!
 
+## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
+
+Since Surge iOS (1641) supports DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
+
+DOMAIN-SET Example:
+```
+DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
+```
+
 ## Create your own Surge Module:
 ```
 #!name=$yourname

@@ -5,10 +5,6 @@ DOMAIN,adash.man.aliyuncs.com
 DOMAIN,adashbc.m.taobao.com
 DOMAIN,adashbc.ut.taobao.com
 DOMAIN,adash-c.ut.taobao.com
-DOMAIN,adashx.m.taobao.com
-DOMAIN,adashx4ae.ut.taobao.com
-DOMAIN,adashx4yt.m.taobao.com
-DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adsh.m.taobao.com
 DOMAIN,afp.adchina.com
 DOMAIN,afp.alicdn.com
@@ -68,4 +64,3 @@ DOMAIN,tyh.taobao.com
 DOMAIN,w.m.taobao.com
 URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/.*(-\d{4}\.jpg|\.jpg_(9\d{2}|\d{4}))"
 URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
-DOMAIN-SUFFIX,simba.taobao.com

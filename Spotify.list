@@ -11,3 +11,4 @@ URL-REGEX,^https?://spclient.wg.spotify.com/.+doubleclick.net
 URL-REGEX,^https?://spclient.wg.spotify.com/.+enabled-tracks
 URL-REGEX,^https?://spclient.wg.spotify.com/.+event
 URL-REGEX,^https?://spclient.wg.spotify.com/.+promoted_offer
+// hostname = %APPEND% spclient.wg.spotify.com

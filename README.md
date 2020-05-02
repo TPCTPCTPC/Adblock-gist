@@ -15,7 +15,7 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Abundant rul
 
 Since Surge iOS (1641) supports DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
 
-DOMAIN-SET Example:
+DOMAIN-SET example:
 ```
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
 ```

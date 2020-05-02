@@ -9,7 +9,7 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Abundant rul
 
 🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* are designed to break most functions of theirs!!
 
-🚨 *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* could slow down your network, not recommended for Surge iOS.
+🚨 *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* could slow down your network, not recommended for Surge iOS if not necessary.
 
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
 
@@ -47,4 +47,5 @@ A remote *Module* can be easily incerted any new hostnames and Javascripts, whic
 - [Lãng Khách](https://github.com/langkhach270389/Scripting/tree/master/Surge)
 - [lhie1](https://github.com/lhie1/Rules)
 - [onewayticket255](https://github.com/onewayticket255/Surge-Script)
+- [primovist](https://github.com/primovist/ScriptsForSurge)
 - [Yachen Liu](https://community.nssurge.com/d/225-module)

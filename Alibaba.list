@@ -62,5 +62,7 @@ DOMAIN,tongji.linezing.com
 DOMAIN,tunion-api.m.taobao.com
 DOMAIN,tyh.taobao.com
 DOMAIN,w.m.taobao.com
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/.*(-\d{4}\.jpg|\.jpg_(9\d{2}|\d{4}))"
-URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless
+URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.((trip\.activity|film\.mtopadvertiseapi)\.querytmsresources|(taobao\.idle\.home|aliyun\.mobile)\.welcome(page)?|.*?\.ads?\.)
+URL-REGEX,^https?://gw.alicdn.com/(t(f|p)s/.+\d{3,4}-\d{4}|mt)
+URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/
+// hostname = %APPEND% gw.alicdn.com, *acs.m.taobao.com

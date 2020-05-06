@@ -12,3 +12,5 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/error_204
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
+URL-REGEX,^https?:\/\/.+\.googleapis.com/.+ad_break
+URL-REGEX,^https?:\/\/.+\.googleapis.com/adsmeasurement

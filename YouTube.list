@@ -1,4 +1,8 @@
 // Optional - can also simply use https://raw.githubusercontent.com/Choler/Surge/master/Script/YouTube.js
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+oad=
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/videogoodput
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/.+adformat
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/.+get_ads
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/ads

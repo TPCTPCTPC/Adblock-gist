@@ -1,6 +1,3 @@
-// BOC
-URL-REGEX,^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?
-
 // CMB
 URL-REGEX,^https:\/\/mlife\.cmbchina\.com\/BaseService\/startAppForV5\.json$
 URL-REGEX,"^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"

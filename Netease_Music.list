@@ -1,3 +1,0 @@
-URL-REGEX,https?://interface3?.music.163.com/eapi/(ad|abtest|sp|hot|log|mlivestream|store|mlog|search/(specialkeyword|defaultkeyword|hot))
-AND,((USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*),(NOT,((DOMAIN-SUFFIX,music.126.net))),(NOT,((DOMAIN-KEYWORD,wyy))))
-USER-AGENT,neteasemusic*

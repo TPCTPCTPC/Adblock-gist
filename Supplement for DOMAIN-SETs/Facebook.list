@@ -1,6 +1,0 @@
-DOMAIN-SUFFIX,staticxx.facebook.com
-URL-REGEX,^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js
-URL-REGEX,^https?://www.facebook.com/adnw_logging/*
-URL-REGEX,^https?://www.facebook.com/adnw_sync/*
-URL-REGEX,^https?://www.facebook.com/tr
-// graph.facebook.com is blocked in anti-AD list

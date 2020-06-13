@@ -20,6 +20,15 @@ DOMAIN-SET example:
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
 ```
 
+## Work with *Mock (Map Local)*
+
+Since Surge iOS (1723) supported Mock, allowing Surge to return an empty json to the request, which can save up more memories than Javascripts. Users can also load Mock rules in a Module. For now, the fuction of mocking in this gist is duplicate with URL-REGEX rules, choose one you prefer.
+
+Check Mocking Examples in:
+```
+https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Mock
+```
+
 ## Create your own Surge Module:
 ```
 #!name=$yourname
@@ -29,19 +38,14 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/EXAMPLE.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/URL-REGEX/EXAMPLE.list,REJECT
+
+[Map Local]
+^https://mp\.weixin\.qq\.com/mp/getappmsgad data="empty.json" //You can generate an empty json on your own surge.
 
 // Optional
 [MITM]
 hostname = %APPEND% an.example.com
-```
-
-### Work with *Mock (Map Local)*
-
-Since Surge iOS (1723) supported Mock, allowing Surge to return an empty json to the request, which can save up more memories than Javascripts. Users can also load Mock rules in a Module.
-
-Check Mocking Examples in:
-```
-https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Mock
 ```
 
 ### Why create your own *Module*?

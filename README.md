@@ -7,13 +7,13 @@ Sorted Adblock rules for Surge iOS 4, compatible with Surge Module. Abundant rul
 
 💡 Use AdGuard for a better effect on Safari.
 
-🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* are designed to break most functions of theirs!!
+🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/DOMAINs/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/URL-REGEX/360.list)* are designed to break most functions of theirs!!
 
-🚨 *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/360.list)* could slow down your network, not recommended for Surge iOS if not necessary.
+🚨 *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/URL-REGEX/360.list)* could slow down your network, not recommended for Surge iOS if not necessary.
 
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
 
-Since Surge iOS (1641) supports DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
+Since Surge iOS (1641) supported DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
 
 DOMAIN-SET example:
 ```
@@ -34,6 +34,16 @@ RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/EXAMPLE
 [MITM]
 hostname = %APPEND% an.example.com
 ```
+
+### Work with *Mock (Map Local)*
+
+Since Surge iOS (1723) supported Mock, allowing Surge to return an empty json to the request, which can save up more memories than Javascripts. Users can also load Mock rules in a Module.
+
+Check Mocking Examples in:
+```
+https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Mock
+```
+
 ### Why create your own *Module*?
 
 It is your responsibility to avoid risks from the Man-In-The-Middle attack. 

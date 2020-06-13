@@ -1,0 +1,8 @@
+URL-REGEX,^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js
+URL-REGEX,^https?://graph.facebook.com/.+activities
+URL-REGEX,^https?://graph.facebook.com/.+advertiser_id=*
+URL-REGEX,^https?://graph.facebook.com/.+events
+URL-REGEX,^https?://graph.facebook.com/network_ads_common/*
+URL-REGEX,^https?://www.facebook.com/adnw_logging/*
+URL-REGEX,^https?://www.facebook.com/adnw_sync/*
+URL-REGEX,^https?://www.facebook.com/tr

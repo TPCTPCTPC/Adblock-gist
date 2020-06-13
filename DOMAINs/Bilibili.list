@@ -1,0 +1,5 @@
+DOMAIN,cm.bilibili.com
+DOMAIN,dataflow.biliapi.com
+DOMAIN,data.bilibili.com
+DOMAIN,thirdparty.biliapi.com
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))

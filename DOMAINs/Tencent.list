@@ -1,0 +1,23 @@
+USER-AGENT,TencentConnect*
+DOMAIN-SUFFIX,3g.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN,3gimg.qq.com
+DOMAIN,btrace.qq.com
+DOMAIN,fusion.qq.com
+DOMAIN,mtrace.qq.com
+DOMAIN,oth.eve.mdt.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pingma.qq.com
+DOMAIN,pingtcss.qq.com
+DOMAIN,tajs.qq.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,weixinbridge.com
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))

@@ -1,0 +1,5 @@
+USER-AGENT,com.apple.AppStore.ProductPageExtension*
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN,metrics.icloud.com

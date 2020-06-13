@@ -1,0 +1,2 @@
+URL-REGEX,^https?:\/\/.+\/music\/common\/upload\/t_splash_info
+URL-REGEX,^https?:\/\/.+\/tips\/fcgi-bin\/fcg_get_advert

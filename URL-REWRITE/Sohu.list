@@ -1,0 +1,4 @@
+^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense url reject-200
+^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ url reject-200
+^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json url reject-200
+^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap url reject-200

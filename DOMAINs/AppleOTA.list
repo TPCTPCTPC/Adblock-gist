@@ -1,8 +1,8 @@
-DOMAIN,gdmf.apple.com
-DOMAIN,gdmf.apple.com.akadns.net
-DOMAIN,mesu.apple.com
-DOMAIN,mesu-cdn.apple.com.akadns.net
-DOMAIN,mesu-cdn.origin-apple.com.akadns.net
-DOMAIN,mesu.g.aaplimg.com
-DOMAIN,appldnld.apple.com
-DOMAIN,appldnld.apple.com.akadns.net
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,gdmf.apple.com.akadns.net,REJECT
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,mesu-cdn.apple.com.akadns.net,REJECT
+DOMAIN,mesu-cdn.origin-apple.com.akadns.net,REJECT
+DOMAIN,mesu.g.aaplimg.com,REJECT
+DOMAIN,appldnld.apple.com,REJECT
+DOMAIN,appldnld.apple.com.akadns.net,REJECT

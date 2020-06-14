@@ -1,0 +1,5 @@
+"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php" url reject-200
+"^https?:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adx" url reject-200
+"^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry" url reject-200
+^https?://(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com url reject-200
+"^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads" url reject-200

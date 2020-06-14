@@ -1,0 +1,2 @@
+^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-200
+https://mp.weixin.qq.com/mp/appmsgpicreport url reject-200

@@ -1,5 +1,5 @@
-DOMAIN,cm.bilibili.com
-DOMAIN,dataflow.biliapi.com
-DOMAIN,data.bilibili.com
-DOMAIN,thirdparty.biliapi.com
-AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
+DOMAIN,cm.bilibili.com,REJECT
+DOMAIN,dataflow.biliapi.com,REJECT
+DOMAIN,data.bilibili.com,REJECT
+DOMAIN,thirdparty.biliapi.com,REJECT
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com)))),REJECT

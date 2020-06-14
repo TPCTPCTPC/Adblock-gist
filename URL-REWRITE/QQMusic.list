@@ -1,0 +1,2 @@
+^https?:\/\/.+\/music\/common\/upload\/t_splash_info url reject-200
+^https?:\/\/.+\/tips\/fcgi-bin\/fcg_get_advert url reject-200

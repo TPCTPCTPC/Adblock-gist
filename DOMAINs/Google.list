@@ -1,5 +1,5 @@
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN,mtalk.google.com
-DOMAIN,suggestqueries.google.com
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,mtalk.google.com,REJECT
+DOMAIN,suggestqueries.google.com,REJECT

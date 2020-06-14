@@ -1,2 +1,2 @@
-DOMAIN,log.spotify.com
-DOMAIN,adeventtracker.spotify.com
+DOMAIN,log.spotify.com,REJECT
+DOMAIN,adeventtracker.spotify.com,REJECT

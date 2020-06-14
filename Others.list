@@ -1,5 +1,5 @@
-DOMAIN,lbs.netese.im
-DOMAIN,lbs.qq.com
-USER-AGENT,*AdSDK*
-USER-AGENT,*Splash*
-USER-AGENT,*Banner*
+DOMAIN,lbs.netese.im,REJECT
+DOMAIN,lbs.qq.com,REJECT
+USER-AGENT,*AdSDK*,REJECT
+USER-AGENT,*Splash*,REJECT
+USER-AGENT,*Banner*,REJECT

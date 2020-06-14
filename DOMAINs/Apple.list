@@ -1,5 +1,5 @@
-USER-AGENT,com.apple.AppStore.ProductPageExtension*
-DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
-DOMAIN-SUFFIX,unityads.unity3d.com
-DOMAIN,metrics.icloud.com
+USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN,metrics.icloud.com,REJECT

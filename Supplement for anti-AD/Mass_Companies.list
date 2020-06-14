@@ -1,65 +1,65 @@
 // Alibaba
-DOMAIN,adash-c.ut.taobao.com
-DOMAIN,agoodm.wapa.taobao.com
-DOMAIN,alipaylog.com
-DOMAIN,amdc.alipay.com
-DOMAIN,api.wapa.taobao.com
-DOMAIN,beacon-api.aliyuncs.com
-DOMAIN,cbu01.alicdn.com
-DOMAIN,click.aliyun.com
-DOMAIN,cm.mlt01.com
-DOMAIN,err.taobao.com
-DOMAIN,ff.win.taobao.com
-DOMAIN,g.click.taobao.com
-DOMAIN,g.tbcdn.cn
-DOMAIN,gtms01.alicdn.com
-DOMAIN,gtms02.alicdn.com
-DOMAIN,gtms03.alicdn.com
-DOMAIN,gtms04.alicdn.com
-DOMAIN,intl.wapa.taobao.com
-DOMAIN,intl.waptest.taobao.com
-DOMAIN,tejia.taobao.com
-DOMAIN,tyh.taobao.com
+DOMAIN,adash-c.ut.taobao.com,REJECT
+DOMAIN,agoodm.wapa.taobao.com,REJECT
+DOMAIN,alipaylog.com,REJECT
+DOMAIN,amdc.alipay.com,REJECT
+DOMAIN,api.wapa.taobao.com,REJECT
+DOMAIN,beacon-api.aliyuncs.com,REJECT
+DOMAIN,cbu01.alicdn.com,REJECT
+DOMAIN,click.aliyun.com,REJECT
+DOMAIN,cm.mlt01.com,REJECT
+DOMAIN,err.taobao.com,REJECT
+DOMAIN,ff.win.taobao.com,REJECT
+DOMAIN,g.click.taobao.com,REJECT
+DOMAIN,g.tbcdn.cn,REJECT
+DOMAIN,gtms01.alicdn.com,REJECT
+DOMAIN,gtms02.alicdn.com,REJECT
+DOMAIN,gtms03.alicdn.com,REJECT
+DOMAIN,gtms04.alicdn.com,REJECT
+DOMAIN,intl.wapa.taobao.com,REJECT
+DOMAIN,intl.waptest.taobao.com,REJECT
+DOMAIN,tejia.taobao.com,REJECT
+DOMAIN,tyh.taobao.com,REJECT
 
 // Apple
-USER-AGENT,com.apple.AppStore.ProductPageExtension*
-DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
-DOMAIN-SUFFIX,unityads.unity3d.com
-DOMAIN,metrics.icloud.com
+USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT
+DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN,metrics.icloud.com,REJECT
 
 // Baidu
-DOMAIN-SUFFIX,baidustatic.com
-DOMAIN,duclick.baidu.com
+DOMAIN-SUFFIX,baidustatic.com,REJECT
+DOMAIN,duclick.baidu.com,REJECT
 
 // Facebook
-DOMAIN-SUFFIX,staticxx.facebook.com
+DOMAIN-SUFFIX,staticxx.facebook.com,REJECT
 
 // Google
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN,mtalk.google.com
-DOMAIN,suggestqueries.google.com
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN,mtalk.google.com,REJECT
+DOMAIN,suggestqueries.google.com,REJECT
 
 // Tencent
-USER-AGENT,TencentConnect*
-DOMAIN-SUFFIX,3g.qq.com
-DOMAIN-SUFFIX,beacon.qq.com
-DOMAIN-SUFFIX,bugly.qq.com
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-SUFFIX,rqd.qq.com
-DOMAIN,3gimg.qq.com
-DOMAIN,fusion.qq.com
-DOMAIN,wup.imtt.qq.com
-DOMAIN,weixinbridge.com
-AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
+USER-AGENT,TencentConnect*,REJECT
+DOMAIN-SUFFIX,3g.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+DOMAIN,3gimg.qq.com,REJECT
+DOMAIN,fusion.qq.com,REJECT
+DOMAIN,wup.imtt.qq.com,REJECT
+DOMAIN,weixinbridge.com,REJECT
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg)),REJECT
 
 // Twitter
-DOMAIN-SUFFIX,ads.twitter.com
-DOMAIN-SUFFIX,p.twitter.com
-DOMAIN-SUFFIX,syndication.twitter.com
-DOMAIN-SUFFIX,syndication-o.twitter.com
-DOMAIN-SUFFIX,urls.api.twitter.com
+DOMAIN-SUFFIX,ads.twitter.com,REJECT
+DOMAIN-SUFFIX,p.twitter.com,REJECT
+DOMAIN-SUFFIX,syndication.twitter.com,REJECT
+DOMAIN-SUFFIX,syndication-o.twitter.com,REJECT
+DOMAIN-SUFFIX,urls.api.twitter.com,REJECT

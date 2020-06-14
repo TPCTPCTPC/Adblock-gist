@@ -1,1 +1,2 @@
-https://www.zhihu.com/api/v4/mcn/ url reject-200https://api.zhihu.com/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)) url reject-200
+https://www.zhihu.com/api/v4/mcn/ url reject-200
+https://api.zhihu.com/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)) url reject-200

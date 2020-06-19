@@ -1,5 +1,5 @@
 # Adblock-Gist
-Sorted Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplicated rules are removed/merged to **[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** & **[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)**.
+Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplicated rules are removed/merged to **[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** & **[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)**.
 
 💡 Check the content before use.
 
@@ -43,7 +43,7 @@ RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs
 RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/URL-REGEX/EXAMPLE.list,REJECT
 
 [Map Local]
-^https://mp\.weixin\.qq\.com/mp/getappmsgad data="empty.json" //You can generate an empty json on your own surge.
+^https://an\.example\.com/ad data="empty.json" //You can generate an empty json on your own surge.
 
 // Optional
 [MITM]
@@ -56,7 +56,7 @@ It is your responsibility to avoid risks from the Man-In-The-Middle attack.
 A remote *Module* can be easily incerted any new hostnames and Javascripts, which could significantly increase the risk of your networking safety, if the user did not notice the change when updating the *Module*.
 
 ## **Quantumult X** Users?
-ADBLOCK-GIST now supports QX with **[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)** compatibly and **[url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE) exclusively**.
+ADBLOCK-GIST now supports QX with **[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)** compatibly and **[url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)** exclusively.
 
 ## Credits:
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD)

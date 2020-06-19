@@ -6,3 +6,5 @@ URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 
 // ICBC
 URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
+
+// hostname = mlife.cmbchina.com,resource.cmbchina.com

@@ -16,10 +16,18 @@ DOMAIN-SET example:
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
 ```
 
+## Compatibility
 
-
-
-
+|                            |`Surge iOS/Mac`|`Quantumult X`|
+|:--------------------------:|:-------------:|:-----:|
+|*[Suffixes.list]()*         | ☑️           |☑️|
+|*[Keywords.list]()*         | ☑️           |☑️|
+|*[Others.list]()*           | ☑️           |☑️|
+|*[domain rules]()*          | ☑️           |☑️|
+|*[url-regex]()*             | ☑️           ||
+|*[url-rewrite]()*           |               |☑️|
+|*[mocking]()*               | ☑️           ||
+|*[Supplement for anti-AD]()*| ☑️           |☑️|
 
 
 ## Work with *Mock (Map Local)*

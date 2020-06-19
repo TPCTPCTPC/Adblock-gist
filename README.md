@@ -29,7 +29,7 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 ## Work with *Mock (Map Local)*
 
-This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(*Yachen Liu, Testflight 1723*). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
+This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(*Yachen Liu, Surge Testflight 1723*). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
 
 ## Create your own *Surge Module*:
 ```

@@ -1,4 +1,4 @@
-hostname = connect.facebook.net,graph.facebook.com,www.facebook.com
+hostname = connect.facebook.net,www.facebook.com
 
 ^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js url reject-200
 ^https?://graph.facebook.com/.+activities url reject-200

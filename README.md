@@ -1,5 +1,5 @@
 # Adblock-Gist
-Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplicated rules are removed/merged to **[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** & **[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)**.
+Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplicated rules from *domain rules* are removed/merged to **[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** & **[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)**.
 
 💡 Check the content before use.
 

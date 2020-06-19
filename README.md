@@ -7,15 +7,6 @@ Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Mod
 
 💡 Use AdGuard for a better effect on Safari.
 
-## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
-
-Since Surge iOS (1641) supported DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
-
-DOMAIN-SET example:
-```
-DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
-```
-
 ## Compatibility
 
 |                                                                                    |`Surge iOS/Mac`|`Quantumult X`|
@@ -29,6 +20,14 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 |*[mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)*                                     |☑️|   |
 |*[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)*|☑️|☑️|
 
+## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
+
+Since Surge iOS (1641) supported DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
+
+DOMAIN-SET example:
+```
+DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
+```
 
 ## Work with *Mock (Map Local)*
 

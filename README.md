@@ -6,15 +6,26 @@ Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplic
 💡 Use AdGuard for a better effect on Safari.
 
 ## Profile Introduction
+
 This Profiles is featured in modularised blocking rules. Except for basic rules, the others will be sorted by network services. eg: Youtube, Spotify, Alibaba. Both **HTTP** and **HTTPS** blocking rules are included and **HTTPS** requests shall be decrytped by MITM, use it at your own risk.
+
 - basic rules:
-
 Extended blockers for common trackers and advertisements, work with ```DOMAIN-SUFFIX```/```DOMAIN-KEYWORD```/```USER-AGENT```.
- - Suffixes
- - Keywords
- - Others
+ - [Suffixes](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)
+ - [Keywords](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)
+ - [Others](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)
 
-- domain rules:
+- HTTP blocking rules:
+Modularised rule sets with [IP-based rules](https://manual.nssurge.com/rule/ip-based.html), [Domain-based rules](https://manual.nssurge.com/rule/domain-based.html) and [Logical rules](https://manual.nssurge.com/rule/logical-rule.html).
+ - [domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)
+ - [Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)
+
+- HTTPS blocking rules:
+Modularised rule sets with [HTTP(S) rules](https://manual.nssurge.com/rule/http.html)
+ - [url regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)
+ - [mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)
+ - [url rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)
+
 
 ## Compatibility
 

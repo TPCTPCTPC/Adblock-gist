@@ -1,1 +1,3 @@
 ^http:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/ url reject-200
+^https?:\/\/.+\.mp4\?ccode=0902 url reject-200
+^https?:\/\/.+\.mp4\?sid= url reject-200

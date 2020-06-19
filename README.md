@@ -16,6 +16,12 @@ DOMAIN-SET example:
 DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
 ```
 
+
+
+
+
+
+
 ## Work with *Mock (Map Local)*
 
 Since Surge iOS (1723) supported Mock, allowing Surge to return an empty json to the request, which can save up more memories than Javascripts. Users can also load Mock rules in a Module. For now, the fuction of mocking in this gist is duplicate with URL-REGEX rules, choose one you prefer.

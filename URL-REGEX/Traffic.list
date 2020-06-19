@@ -6,3 +6,5 @@ URL-REGEX,^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/
 
 // Didi
 URL-REGEX,"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)"
+
+// hostname = chelaile.net.cn,res.xiaojukeji.com

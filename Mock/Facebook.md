@@ -12,5 +12,5 @@
 ^https?://www.facebook.com/tr data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
-hostname = %APPEND% connect.facebook.net
+hostname = %APPEND% connect.facebook.net,graph.facebook.com,www.facebook.com
 ```

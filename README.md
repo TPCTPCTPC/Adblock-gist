@@ -1,9 +1,7 @@
 # Adblock-Gist
-Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Module. Abundant rules are removed/merged to *[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)* & *[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)*
+Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Module. Duplicated rules are removed/merged to ```*[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)*``` & ```*[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)*```.
 
-🅰 Check the content before use.
-
-🅱 MITM is required for URL-Regex 'https' rules.
+💡 Check the content before use.
 
 💡 Use AdGuard for a better effect on Safari.
 

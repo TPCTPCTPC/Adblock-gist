@@ -37,7 +37,7 @@ https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Mock
 #!system=(ios/mac)
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/EXAMPLE.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs/EXAMPLE.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/URL-REGEX/EXAMPLE.list,REJECT
 
 [Map Local]
@@ -52,6 +52,9 @@ hostname = %APPEND% an.example.com
 
 It is your responsibility to avoid risks from the Man-In-The-Middle attack. 
 A remote *Module* can be easily incerted any new hostnames and Javascripts, which could significantly increase the risk of your networking safety, if the user did not notice the change when updating the *Module*.
+
+## Quantumult X users?
+ADBLOCK-GIST now supports QX with ```[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)``` compatibly and ```[url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)``` exclusively.
 
 ## Credits:
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD)

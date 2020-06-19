@@ -53,7 +53,7 @@ hostname = %APPEND% an.example.com
 It is your responsibility to avoid risks from the Man-In-The-Middle attack. 
 A remote *Module* can be easily incerted any new hostnames and Javascripts, which could significantly increase the risk of your networking safety, if the user did not notice the change when updating the *Module*.
 
-## Quantumult X users?
+## Quantumult X Users?
 ADBLOCK-GIST now supports QX with [domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs) compatibly and [url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE) exclusively.
 
 ## Credits:

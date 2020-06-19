@@ -13,8 +13,8 @@ Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplic
 |*[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)*                      |☑️|☑️|
 |*[Others.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)*                          |☑️|☑️|
 |*[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)*                             |☑️|☑️|
-|*[url-regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)*                              |☑️|   |
-|*[url-rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)*                          |   |☑️|
+|*[url regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)*                              |☑️|   |
+|*[url rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)*                          |   |☑️|
 |*[mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)*                                     |☑️|   |
 |*[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)*|☑️|☑️|
 

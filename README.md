@@ -35,7 +35,7 @@ This feature allows Surge to return an empty json to the network request, which 
 ```
 #!name=$yourname
 #!desc=$yourdescription
-// Optional - ignore if you need both
+// Optional: ignore if you need both
 #!system=(ios/mac)
 
 [Rule]
@@ -43,9 +43,8 @@ RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs
 RULE-SET,https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/URL-REGEX/EXAMPLE.list,REJECT
 
 [Map Local]
-^https://an\.example\.com/ad data="empty.json" //You can generate an empty json on your own surge.
+^https://an\.example\.com/ad data="empty.json" // You can generate an empty json on your own surge.
 
-// Optional
 [MITM]
 hostname = %APPEND% an.example.com
 ```

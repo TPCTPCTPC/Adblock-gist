@@ -18,16 +18,16 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 ## Compatibility
 
-|                            |`Surge iOS/Mac`|`Quantumult X`|
-|:--------------------------:|:-------------:|:-----:|
-|*[Suffixes.list]()*         | ☑️           |☑️|
-|*[Keywords.list]()*         | ☑️           |☑️|
-|*[Others.list]()*           | ☑️           |☑️|
-|*[domain rules]()*          | ☑️           |☑️|
-|*[url-regex]()*             | ☑️           ||
-|*[url-rewrite]()*           |               |☑️|
-|*[mocking]()*               | ☑️           ||
-|*[Supplement for anti-AD]()*| ☑️           |☑️|
+|                                                                                    |`Surge iOS/Mac`|`Quantumult X`|
+|------------------------------------------------------------------------------------|:-------------:|:------------:|
+|*[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)*                      |☑️|☑️|
+|*[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)*                      |☑️|☑️|
+|*[Others.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)*                          |☑️|☑️|
+|*[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)*                             |☑️|☑️|
+|*[url-regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)*                              |☑️|   |
+|*[url-rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)*                          |   |☑️|
+|*[mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)*                                     |☑️|   |
+|*[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)*|☑️|☑️|
 
 
 ## Work with *Mock (Map Local)*

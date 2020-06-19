@@ -1,1 +1,3 @@
+hostname = interface.music.163.com
+
 https?://interface3?.music.163.com/eapi/(ad|abtest|sp|hot|log|mlivestream|store|mlog|search/(specialkeyword|defaultkeyword|hot)) url reject-200

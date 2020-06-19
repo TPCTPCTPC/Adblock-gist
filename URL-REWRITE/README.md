@@ -1,5 +1,6 @@
 # URL-Rewrites for Quantumult X
 🅰️ MITM Required.
+
 🅱️ Hostnames separately provided.
 
 ## How to use?

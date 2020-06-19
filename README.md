@@ -22,7 +22,7 @@ Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Mod
 
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
 
-Since Surge iOS (1641) supported DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).
+After Version 4.2.2, Surge is able to load 1,000,000+ rules through ```DOMAIN-SET```. **anti-AD** is an abundant adblocking filter list based on *Easylist* and optimised for Chinese websites. If you like to use anti-AD rules through *DOMAIN-SET*, please subscribe the supplement version (deduplicated already).
 
 DOMAIN-SET example:
 ```
@@ -31,12 +31,7 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 ## Work with *Mock (Map Local)*
 
-Since Surge iOS (1723) supported Mock, allowing Surge to return an empty json to the request, which can save up more memories than Javascripts. Users can also load Mock rules in a Module. For now, the fuction of mocking in this gist is duplicate with URL-REGEX rules, choose one you prefer.
-
-Check Mocking Examples in:
-```
-https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Mock
-```
+This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(Yachen Liu, Testflight 1723). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
 
 ## Create your own Surge Module:
 ```

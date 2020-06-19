@@ -7,8 +7,8 @@ Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Mod
 
 ## Compatibility
 
-|                                                                                    |`Surge iOS/Mac`|`Quantumult X`|
-|------------------------------------------------------------------------------------|:-------------:|:------------:|
+|                                                                                            |`Surge`|`Quantumult X`|
+|--------------------------------------------------------------------------------------------|:-----:|:------------:|
 |*[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)*                      |☑️|☑️|
 |*[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)*                      |☑️|☑️|
 |*[Others.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)*                          |☑️|☑️|

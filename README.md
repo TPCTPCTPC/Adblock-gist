@@ -5,6 +5,17 @@ Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplic
 
 💡 Use AdGuard for a better effect on Safari.
 
+## Profile Introduction
+This Profiles is featured in modularised blocking rules. Except for basic rules, the others will be sorted by network services. eg: Youtube, Spotify, Alibaba. Both **HTTP** and **HTTPS** blocking rules are included and **HTTPS** requests shall be decrytped by MITM, use it at your own risk.
+- basic rules:
+
+Extended blockers for common trackers and advertisements, work with ```DOMAIN-SUFFIX```/```DOMAIN-KEYWORD```/```USER-AGENT```.
+ - Suffixes
+ - Keywords
+ - Others
+
+- domain rules:
+
 ## Compatibility
 
 |                                                                                            |`Surge`|`Quantumult X`|
@@ -31,7 +42,7 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(*Yachen Liu, Surge Testflight 1723*). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
 
-## Create your own *Surge Module*:
+## Create your own *[Surge Module](https://manual.nssurge.com/others/module.html)*:
 ```
 #!name=$yourname
 #!desc=$yourdescription
@@ -66,4 +77,4 @@ ADBLOCK-GIST now supports QX with *[domain rules](https://github.com/TPCTPCTPC/A
 - [lhie1](https://github.com/lhie1/Rules)
 - [onewayticket255](https://github.com/onewayticket255/Surge-Script)
 - [primovist](https://github.com/primovist/ScriptsForSurge)
-- [Yachen Liu](https://community.nssurge.com/d/225-module)
+- [Yachen Liu](https://manual.nssurge.com/)

@@ -7,4 +7,4 @@ URL-REGEX,^https?://www.facebook.com/adnw_logging/*
 URL-REGEX,^https?://www.facebook.com/adnw_sync/*
 URL-REGEX,^https?://www.facebook.com/tr
 
-// hostname = connect.facebook.net,graph.facebook.com,www.facebook.com
+// hostname = %APPEND% connect.facebook.net,graph.facebook.com,www.facebook.com

@@ -7,10 +7,6 @@ Sorted Adblock rules for Surge iOS 4 and Quantumult X, compatible with Surge Mod
 
 💡 Use AdGuard for a better effect on Safari.
 
-🚨 *[Facebook.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/DOMAINs/Facebook.list)* & *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/URL-REGEX/360.list)* are designed to break most functions of theirs!!
-
-🚨 *[360.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/URL-REGEX/360.list)* could slow down your network, not recommended for Surge iOS if not necessary.
-
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
 
 Since Surge iOS (1641) supported DOMAIN-SET rules, which makes it possible to load advanced rule lists (eg: anti-AD). Hence, If you like to use anti-AD rules, please subscribe the supplement version (deduplicated already).

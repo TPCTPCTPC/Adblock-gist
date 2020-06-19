@@ -1,3 +1,5 @@
+hostname = gw.alicdn.com,*acs.m.taobao.com,m*.amap.com
+
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.((trip\.activity|film\.mtopadvertiseapi)\.querytmsresources|(taobao\.idle\.home|aliyun\.mobile)\.welcome(page)?|.*?\.ads?\.) url reject-200
 ^https?://gw.alicdn.com/(t(f|p)s/.+\d{3,4}-\d{4}|mt) url reject-200
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ url reject-200
+^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject-200

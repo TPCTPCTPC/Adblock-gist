@@ -19,5 +19,5 @@
 ^https?:\/\/.+\.googleapis.com/adsmeasurement data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com
+hostname = %APPEND% *.googlevideo.com,*.youtube.com,*.googleapis.com
 ```

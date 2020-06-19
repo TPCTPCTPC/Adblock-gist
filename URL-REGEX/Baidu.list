@@ -5,4 +5,4 @@ URL-REGEX,^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 URL-REGEX,^https?://(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
 URL-REGEX,"^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads"
 
-//hostname = newclient.map.baidu.com,issuecdn.baidupcs.com
+//hostname = %APPEND% newclient.map.baidu.com,issuecdn.baidupcs.com

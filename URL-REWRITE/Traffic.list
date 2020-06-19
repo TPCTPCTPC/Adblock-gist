@@ -1,4 +1,4 @@
-hostname = chelaile.net.cn,res.xiaojukeji.com
+hostname = *.chelaile.net.cn,res.xiaojukeji.com
 
 // Chelaile
 ^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/ url reject-200

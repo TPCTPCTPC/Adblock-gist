@@ -20,7 +20,7 @@ Sorted Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module.
 
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:
 
-After Version 4.2.2, Surge is able to load 1,000,000+ rules through ```DOMAIN-SET```. **anti-AD** is an abundant adblocking filter list based on *Easylist* and optimised for Chinese websites. If you like to use anti-AD rules through *DOMAIN-SET*, please subscribe the supplement version (deduplicated already).
+After Version 4.2.2, Surge is able to load 1,000,000+ rules through ```DOMAIN-SET```. **anti-AD** is an abundant adblocking filter list based on *Easylist* and optimised for Chinese websites. If you like to use **anti-AD** rules through ```DOMAIN-SET```, please subscribe the supplement version (deduplicated already).
 
 DOMAIN-SET example:
 ```
@@ -29,9 +29,9 @@ DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ma
 
 ## Work with *Mock (Map Local)*
 
-This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(Yachen Liu, Testflight 1723). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
+This feature allows Surge to return an empty json to the network request, which can significantly reduce RAM usage on device than JavaScript(*Yachen Liu, Testflight 1723*). Mocking feature is now universial and available on *Surge Module* and base configuration. **The fuction of mocking in this gist is duplicate with ```URL-REGEX rules```, choose one you prefer.**
 
-## Create your own Surge Module:
+## Create your own *Surge Module*:
 ```
 #!name=$yourname
 #!desc=$yourdescription
@@ -55,8 +55,8 @@ hostname = %APPEND% an.example.com
 It is your responsibility to avoid risks from the Man-In-The-Middle attack. 
 A remote *Module* can be easily incerted any new hostnames and Javascripts, which could significantly increase the risk of your networking safety, if the user did not notice the change when updating the *Module*.
 
-## Quantumult X Users?
-ADBLOCK-GIST now supports QX with [domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs) compatibly and [url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE) exclusively.
+## **Quantumult X** Users?
+ADBLOCK-GIST now supports QX with **[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)** compatibly and **[url-rewrites rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE) exclusively**.
 
 ## Credits:
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD)

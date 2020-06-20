@@ -1,4 +1,3 @@
-// Optional - can also simply use https://raw.githubusercontent.com/Choler/Surge/master/Script/YouTube.js
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+oad=
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking

@@ -15,13 +15,13 @@ This Profiles is featured in modularised blocking rules. Except for basic rules,
 - **[Others](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)**
 
 2. Modularised rule sets with [IP-based rules](https://manual.nssurge.com/rule/ip-based.html), [Domain-based rules](https://manual.nssurge.com/rule/domain-based.html) and [Logical rules](https://manual.nssurge.com/rule/logical-rule.html): 
-- **[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)**
+- **[Domain Rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)**
 - **[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)**
 
 3. Modularised rule sets with [HTTP(S) rules](https://manual.nssurge.com/rule/http.html): 
-- **[url regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
-- **[mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)**
-- **[url rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
+- **[Url Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
+- **[Mock](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)**
+- **[Url Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
 
 
 ## Compatibility
@@ -31,10 +31,10 @@ This Profiles is featured in modularised blocking rules. Except for basic rules,
 |*[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)*                      |☑️|☑️|
 |*[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)*                      |☑️|☑️|
 |*[Others.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)*                          |☑️|☑️|
-|*[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)*                             |☑️|☑️|
-|*[url regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)*                              |☑️|   |
-|*[url rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)*                          |   |☑️|
-|*[mocking](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)*                                     |☑️|   |
+|*[Domain Rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)*                             |☑️|☑️|
+|*[URL Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)*                              |☑️|   |
+|*[URL Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)*                          |   |☑️|
+|*[Mock](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)*                                     |☑️|   |
 |*[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)*|☑️|☑️|
 
 ## Work with *[anti-AD](https://github.com/privacy-protection-tools/anti-AD)*:

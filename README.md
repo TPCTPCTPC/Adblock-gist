@@ -19,9 +19,9 @@ This Profiles is featured in modularised blocking rules. Except for basic rules,
 2. **[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)**
 
 #### Modularised rule sets with [HTTP(S) rules](https://manual.nssurge.com/rule/http.html): 
-1. **[Url Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
+1. **[URL Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
 2. **[Mock](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)**
-3. **[Url Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
+3. **[URL Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
 
 
 ## Compatibility

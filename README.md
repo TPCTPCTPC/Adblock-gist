@@ -1,4 +1,4 @@
-# Adblock-Gist
+# ADBLOCK-GIST
 Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplicated rules from *[domain rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)* are removed/merged to **[Keywords.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** & **[Suffixes.list](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)**.
 
 💡 Check the content before use.
@@ -9,19 +9,19 @@ Adblock rules for Surge 4 and Quantumult X, compatible with Surge Module. Duplic
 
 This Profiles is featured in modularised blocking rules. Except for basic rules, the others will be sorted by network services. eg: Youtube, Spotify, Alibaba. Both **HTTP** and **HTTPS** blocking rules are included and **HTTPS** requests shall be decrytped by MITM, use it at your own risk.
 
-1. Extended blockers for common trackers and advertisements: 
-- **[Suffixes](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)** 
-- **[Keywords](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** 
-- **[Others](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)**
+#### Extended blockers for common trackers and advertisements: 
+1. **[Suffixes](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Suffixes.list)** 
+2. **[Keywords](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Keywords.list)** 
+3. **[Others](https://github.com/TPCTPCTPC/Adblock-gist/blob/master/Others.list)**
 
-2. Modularised rule sets with [IP-based rules](https://manual.nssurge.com/rule/ip-based.html), [Domain-based rules](https://manual.nssurge.com/rule/domain-based.html) and [Logical rules](https://manual.nssurge.com/rule/logical-rule.html): 
-- **[Domain Rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)**
-- **[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)**
+#### Modularised rule sets with [IP-based rules](https://manual.nssurge.com/rule/ip-based.html), [Domain-based rules](https://manual.nssurge.com/rule/domain-based.html) and [Logical rules](https://manual.nssurge.com/rule/logical-rule.html): 
+1. **[Domain Rules](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/DOMAINs)**
+2. **[Supplement for anti-AD](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Supplement%20for%20anti-AD)**
 
-3. Modularised rule sets with [HTTP(S) rules](https://manual.nssurge.com/rule/http.html): 
-- **[Url Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
-- **[Mock](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)**
-- **[Url Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
+#### Modularised rule sets with [HTTP(S) rules](https://manual.nssurge.com/rule/http.html): 
+1. **[Url Regex](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REGEX)**
+2. **[Mock](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/Mock)**
+3. **[Url Rewrite](https://github.com/TPCTPCTPC/Adblock-gist/tree/master/URL-REWRITE)**
 
 
 ## Compatibility

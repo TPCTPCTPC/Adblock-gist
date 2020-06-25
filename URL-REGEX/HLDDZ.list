@@ -1,0 +1,3 @@
+URL-REGEX,http://wx.qlogo.cn/mmhead/,REJECT-TINYGIF
+
+// force-http-engine-hosts = wx.qlogo.cn

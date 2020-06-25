@@ -7,7 +7,7 @@
 See [Create your own Surge Module](https://github.com/TPCTPCTPC/Adblock-gist#create-your-own-surge-module)
 
 ## Force HTTP hosts
-Some TCP connections need to be converted to HTTP, add a force-http-engine in [General] Section.
+Some TCP connections need to be converted to HTTP, add a force-http-engine in [General] section to your configurations or *Surge Module* if it is required in the rule-list.
 
 See sample:
 

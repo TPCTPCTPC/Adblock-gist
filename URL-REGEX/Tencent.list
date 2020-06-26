@@ -1,5 +1,6 @@
 URL-REGEX,^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
-URL-REGEX,https://mp.weixin.qq.com/mp/appmsgpicreport
-AND,((DOMAIN,mp.weixin.qq.com), (NOT,((URL-REGEX,https://mp.weixin.qq.com/(s|intp|bizmall|mp/(newappmsgvote|get|videoplayer|homepage|lifedetail|author|profile|app))))))
+URL-REGEX,https://mp.weixin.qq.com/mp/.+report\?
+URL-REGEX,https://mp.weixin.qq.com/mp/.+ad\?
+// AND,((DOMAIN,mp.weixin.qq.com), (NOT,((URL-REGEX,https://mp.weixin.qq.com/(s|intp|bizmall|mp/(newappmsgvote|get|videoplayer|homepage|lifedetail|author|profile|app))))))
 
 // hostname = %APPEND% mp.weixin.qq.com

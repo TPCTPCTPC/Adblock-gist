@@ -2,3 +2,4 @@ hostname = mp.weixin.qq.com
 
 ^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-200
 https://mp.weixin.qq.com/mp/.+report\? url reject-200
+https://mp.weixin.qq.com/mp/.+ad\? url reject-200

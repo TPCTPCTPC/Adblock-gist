@@ -5,5 +5,6 @@ hostname = *.chelaile.net.cn,res.xiaojukeji.com
 ^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ url reject-200
 ^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image url reject-200
 ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ url reject-200
+
 // Didi
-"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)" url reject-200
+^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload) url reject-200

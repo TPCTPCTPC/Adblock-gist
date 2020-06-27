@@ -18,4 +18,3 @@ hostname = *.googlevideo.com,*.youtube.com,*.googleapis.com
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/guide url reject-200
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/log_event url reject-200
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/issuetoken url reject-200
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/feedback url reject-200

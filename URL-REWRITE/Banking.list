@@ -1,9 +1,10 @@
 hostname = mlife.cmbchina.com,resource.cmbchina.com
 
 // CMB
-^https:\/\/mlife\.cmbchina\.com\/BaseService\/startAppForV5\.json$ url reject-200
-^https:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$ url reject-200
+^https?:\/\/mlife\.cmbchina\.com\/BaseService\/startAppForV5\.json$ url reject-200
+^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$ url reject-200
 ^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json url reject-200
 ^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/ url reject-200
+
 // ICBC
 ^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200

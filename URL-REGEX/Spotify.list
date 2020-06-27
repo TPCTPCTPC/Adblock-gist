@@ -1,12 +1,12 @@
-URL-REGEX,^https?://spclient.wg.spotify.com/ad-logic/*
-URL-REGEX,^https?://spclient.wg.spotify.com/ads/*
-URL-REGEX,^https?://spclient.wg.spotify.com/.+ad_slot
-URL-REGEX,^https?://spclient.wg.spotify.com/.+banners
-URL-REGEX,^https?://spclient.wg.spotify.com/.+canvases
-URL-REGEX,^https?://spclient.wg.spotify.com/.+cards
-URL-REGEX,^https?://spclient.wg.spotify.com/.+crashlytics
-URL-REGEX,^https?://spclient.wg.spotify.com/.+doubleclick.net
-URL-REGEX,^https?://spclient.wg.spotify.com/.+enabled-tracks
-URL-REGEX,^https?://spclient.wg.spotify.com/.+event
-URL-REGEX,^https?://spclient.wg.spotify.com/.+promoted_offer
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic\/*
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/ads\/*
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+banners
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+canvases
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+cards
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick.net
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled-tracks
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+event
+URL-REGEX,^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted_offer
 // hostname = %APPEND% spclient.wg.spotify.com

@@ -20,7 +20,6 @@
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/guide data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/log_event data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/issuetoken data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/feedback data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com,*.youtube.com,*.googleapis.com

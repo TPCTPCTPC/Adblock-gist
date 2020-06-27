@@ -1,4 +1,4 @@
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.((trip\.activity|film\.mtopadvertiseapi)\.querytmsresources|(taobao\.idle\.home|aliyun\.mobile)\.welcome(page)?|.*?\.ads?\.)
-URL-REGEX,^https?://gw.alicdn.com/(t(f|p)s/.+\d{3,4}-\d{4}|mt)
+URL-REGEX,^https?:\/\/gw\.alicdn\.com\/(t(f|p)s\/.+\d{3,4}-\d{4}|mt)
 URL-REGEX,^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/
 // hostname = %APPEND% gw.alicdn.com, *acs.m.taobao.com

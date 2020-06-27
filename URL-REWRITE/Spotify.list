@@ -1,13 +1,13 @@
 hostname = spclient.wg.spotify.com
 
-^https?://spclient.wg.spotify.com/ad-logic/* url reject-200
-^https?://spclient.wg.spotify.com/ads/* url reject-200
-^https?://spclient.wg.spotify.com/.+ad_slot url reject-200
-^https?://spclient.wg.spotify.com/.+banners url reject-200
-^https?://spclient.wg.spotify.com/.+canvases url reject-200
-^https?://spclient.wg.spotify.com/.+cards url reject-200
-^https?://spclient.wg.spotify.com/.+crashlytics url reject-200
-^https?://spclient.wg.spotify.com/.+doubleclick.net url reject-200
-^https?://spclient.wg.spotify.com/.+enabled-tracks url reject-200
-^https?://spclient.wg.spotify.com/.+event url reject-200
-^https?://spclient.wg.spotify.com/.+promoted_offer url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic\/* url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/ads\/* url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+banners url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+canvases url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+cards url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick.net url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled-tracks url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+event url reject-200
+^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted_offer url reject-200

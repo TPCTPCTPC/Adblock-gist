@@ -16,6 +16,5 @@ URL-REGEX,^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/notification_registratio
 URL-REGEX,^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/guide
 URL-REGEX,^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/log_event
 URL-REGEX,^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/issuetoken
-URL-REGEX,^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/feedback
 
 // hostname = %APPEND% *.googlevideo.com,*.youtube.com,*.googleapis.com

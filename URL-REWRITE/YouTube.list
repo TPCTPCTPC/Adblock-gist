@@ -15,3 +15,4 @@ hostname = *.googlevideo.com,*.youtube.com,*.googleapis.com
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
 ^https?:\/\/.+\.googleapis.com/.+ad_break url reject-200
 ^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-200
+^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/(notification_registration|guide|log_event) url reject-200

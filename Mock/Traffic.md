@@ -9,7 +9,7 @@
 ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 // Didi
-"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)" data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload) data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
 hostname = %APPEND% res.xiaojukeji.com, *.chelaile.net.cn

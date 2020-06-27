@@ -1,1 +1,1 @@
-http://wx.qlogo.cn/mmhead/ url reject-200
+^http:\/\/wx\.qlogo\.cn\/mmhead\/ url reject-200

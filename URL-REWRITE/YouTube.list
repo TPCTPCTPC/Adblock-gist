@@ -12,9 +12,9 @@ hostname = *.googlevideo.com,*.youtube.com,*.googleapis.com
 ^https?:\/\/.+\.youtube\.com\/get_midroll url reject-200
 ^https?:\/\/.+\.youtube\.com\/pagead url reject-200
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
-^https?:\/\/.+\.googleapis.com/.+ad_break url reject-200
-^https?:\/\/.+\.googleapis.com/adsmeasurement url reject-200
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/notification_registration url reject-200
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/guide url reject-200
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/log_event url reject-200
-^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/issuetoken url reject-200
+^https?:\/\/.+\.googleapis\.com\/.+ad_break url reject-200
+^https?:\/\/.+\.googleapis\.com\/adsmeasurement url reject-200
+^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/notification_registration url reject-200
+^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/guide url reject-200
+^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/log_event url reject-200
+^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/issuetoken url reject-200

@@ -17,6 +17,7 @@
 ^https?:\/\/.+\.youtube\.com\/ptracking data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis.com/.+ad_break data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis.com/adsmeasurement data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/.+\.googleapis.com\/youtubei\/v1\/(notification_registration|guide|log_event) data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com,*.youtube.com,*.googleapis.com

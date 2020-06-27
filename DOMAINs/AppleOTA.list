@@ -1,3 +1,4 @@
+USER-AGENT,MobileAsset*,DIRECT
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,gdmf.apple.com.akadns.net,REJECT
 DOMAIN,mesu.apple.com,REJECT

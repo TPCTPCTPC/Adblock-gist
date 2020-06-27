@@ -9,5 +9,5 @@
 ^https?:\/\/(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
-hostname = %APPEND% newclient.map.baidu.com,issuecdn.baidupcs.com
+hostname = %APPEND% issuecdn.baidupcs.com
 ```

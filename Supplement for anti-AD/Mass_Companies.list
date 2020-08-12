@@ -42,6 +42,11 @@ DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,mtalk.google.com,REJECT
 DOMAIN,suggestqueries.google.com,REJECT
 
+// Mi
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN,data.mistat.xiaomi.com,REJECT
+DOMAIN,tracking.intl.miui.com,REJECT
+
 // Tencent
 USER-AGENT,TencentConnect*,REJECT
 DOMAIN-SUFFIX,3g.qq.com,REJECT

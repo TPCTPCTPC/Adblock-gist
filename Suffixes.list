@@ -187,8 +187,8 @@ DOMAIN-SUFFIX,taptica.com,REJECT
 DOMAIN-SUFFIX,tealiumiq.com,REJECT
 DOMAIN-SUFFIX,testplus.cn,REJECT
 DOMAIN-SUFFIX,tiqcdn.com,REJECT
-DOMAIN-SUFFIX,track.xiachufang.com,REJECT
 DOMAIN-SUFFIX,trackclickers.com,REJECT
+DOMAIN-SUFFIX,trackingio.com,REJECT
 DOMAIN-SUFFIX,trackimpression.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.com,REJECT
 DOMAIN-SUFFIX,trafficjunky.net,REJECT

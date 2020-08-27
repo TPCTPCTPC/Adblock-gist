@@ -20,6 +20,7 @@ DOMAIN,intl.wapa.taobao.com,REJECT
 DOMAIN,intl.waptest.taobao.com,REJECT
 DOMAIN,tejia.taobao.com,REJECT
 DOMAIN,tyh.taobao.com,REJECT
+DOMAIN-SUFFIX,simba.taobao.com,REJECT
 
 // Apple
 USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT

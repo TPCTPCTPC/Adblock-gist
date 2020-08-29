@@ -1,0 +1,21 @@
+// Alibaba
+DOMAIN,amdc.alipay.com,REJECT
+DOMAIN,beacon-api.aliyuncs.com,REJECT
+DOMAIN,cbu01.alicdn.com,REJECT
+DOMAIN,click.aliyun.com,REJECT
+DOMAIN,gtms01.alicdn.com,REJECT
+DOMAIN,gtms02.alicdn.com,REJECT
+DOMAIN,gtms03.alicdn.com,REJECT
+DOMAIN,gtms04.alicdn.com,REJECT
+DOMAIN,tejia.taobao.com,REJECT
+
+// Baidu
+DOMAIN,duclick.baidu.com,REJECT
+
+// Tencent
+USER-AGENT,TencentConnect*,REJECT
+DOMAIN-SUFFIX,3g.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,3gimg.qq.com,REJECT
+DOMAIN,wup.imtt.qq.com,REJECT
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg)),REJECT

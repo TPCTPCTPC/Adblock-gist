@@ -1,4 +1,4 @@
-hostname = *.chelaile.net.cn,res.xiaojukeji.com
+hostname = *.chelaile.net.cn,res.xiaojukeji.com,*.didistatic.com
 
 // Chelaile
 ^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub\/ url reject-200
@@ -8,3 +8,5 @@ hostname = *.chelaile.net.cn,res.xiaojukeji.com
 
 // Didi
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload) url reject-200
+^https?:\/\/*\.didistatic\.com\/static\/starimg\/node url reject-200
+^https?:\/\/*\.didistatic\.com\/static\/ad_oss url reject-200

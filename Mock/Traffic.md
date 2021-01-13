@@ -10,7 +10,9 @@
 
 // Didi
 ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload) data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/*\.didistatic\.com\/static\/starimg\/node data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/*\.didistatic\.com\/static\/ad_oss data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
-hostname = %APPEND% res.xiaojukeji.com, *.chelaile.net.cn
+hostname = %APPEND% res.xiaojukeji.com, *.chelaile.net.cn,*.didistatic.com
 ```

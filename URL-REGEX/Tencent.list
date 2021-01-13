@@ -2,5 +2,6 @@ URL-REGEX,^https?:\/\/.+extshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+report\?
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+ad\?
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+monitor\?
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/bizmall\/reward\?
 
-// hostname = %APPEND% mp.weixin.qq.com
+// hostname = %APPEND% *.weixin.qq.com

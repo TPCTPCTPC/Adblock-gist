@@ -43,11 +43,11 @@ After Version 4.2.2, Surge is able to load 1,000,000+ rules through ```DOMAIN-SE
 
 DOMAIN-SET example:
 ```
-DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt,REJECT
 
 or
 
-DOMAIN-SET,https://anti-ad.net/domains.txt,REJECT
+DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT
 ```
 
 ## Work with *Mock (Map Local)*

@@ -83,7 +83,7 @@ ADBLOCK-GIST now supports QX with *[domain rules](https://github.com/TPCTPCTPC/A
 ## Credits:
 - [anti-AD](https://github.com/privacy-protection-tools/anti-AD)
 - [Choler](https://github.com/Choler/Surge)
-- [ConnersHua](https://github.com/ConnersHua/Profiles/tree/master)
+- [DivineEngine](https://github.com/DivineEngine/Profiles/tree/master)
 - [domain-list-community](https://github.com/v2ray/domain-list-community)
 - [Lãng Khách](https://github.com/langkhach270389/Scripting/tree/master/Surge)
 - [lhie1](https://github.com/lhie1/Rules)

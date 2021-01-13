@@ -2,8 +2,6 @@
 
 ```
 [Map Local]
-^https?:\/\/.+\.googlevideo\.com\/.+ctier data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/.+\.googlevideo\.com\/.+oad= data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googlevideo\.com\/ptracking data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googlevideo\.com\/videogoodput data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.youtube\.com\/.+adformat data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
@@ -15,13 +13,21 @@
 ^https?:\/\/.+\.youtube\.com\/get_midroll data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.youtube\.com\/pagead data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.youtube\.com\/ptracking data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/.+\.googleapis\.com\/.+ad_break data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/.+\.googleapis\.com\/adsmeasurement data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/.+\.googleapis\.com\/.+ad data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
+^https?:\/\/.+\.googleapis\.com\/ads data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/notification_registration data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/guide data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/log_event data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/issuetoken data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
+[Script]
+// hostname = %APPEND% *.googlevideo.com
+YouTube ADB(By Choler) = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
+
 [MITM]
-hostname = %APPEND% *.googlevideo.com,*.youtube.com,*.googleapis.com
+hostname = %APPEND% *.googlevideo.com,*.youtube.com,www.googleapis.com
 ```
+Enable [Script] if you are not a YouTube Premium Member.
+
+##Credit:
+[Choler](https://raw.githubusercontent.com/Choler/Surge/master/Module/youtube.sgmodule)

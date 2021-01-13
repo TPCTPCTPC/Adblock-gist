@@ -1,10 +1,4 @@
-// CMB
-URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/BaseService\/startAppForV5\.json$
-URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$
-URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
-URL-REGEX,^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
-
 // ICBC
 URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 
-// hostname = %APPEND% mlife.cmbchina.com,resource.cmbchina.com
+// hostname = %APPEND% resource.cmbchina.com

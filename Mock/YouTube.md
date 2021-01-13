@@ -27,7 +27,8 @@ YouTube ADB(By Choler) = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\
 [MITM]
 hostname = %APPEND% *.googlevideo.com,*.youtube.com,www.googleapis.com
 ```
+
 Enable [Script] if you are not a YouTube Premium Member.
 
-##Credit:
+## Credit:
 [Choler](https://raw.githubusercontent.com/Choler/Surge/master/Module/youtube.sgmodule)

@@ -17,7 +17,7 @@ Add ```USER-AGENT,MobileAsset*,DIRECT``` on top of **AppleOTA.list** on your Sur
 Block iOS system update package downloading only, while update information can still be displayed without showing the badge on Setting app. [AppleOTA.list](https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs/AppleOTA.list) is unnecessary in this solution. It has been tested on an iOS 12 device with Surge 4. MITM is required.
 
 ```
-RL-REGEX,^https:\/\/mesu\.apple\.com\/assets\/com_apple_MobileAsset_SoftwareUpdate\/,REJECT
+URL-REGEX,^https:\/\/mesu\.apple\.com\/assets\/com_apple_MobileAsset_SoftwareUpdate\/,REJECT
 
 URL-REGEX,^http:\/\/updates-http\.cdn-apple\.com\/.+\/com_apple_MobileAsset_SoftwareUpdate\/,REJECT
 

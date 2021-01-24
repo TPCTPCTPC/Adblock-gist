@@ -21,6 +21,7 @@ DOMAIN,intl.waptest.taobao.com,REJECT
 DOMAIN,tejia.taobao.com,REJECT
 DOMAIN,tyh.taobao.com,REJECT
 DOMAIN-SUFFIX,simba.taobao.com,REJECT
+AND,((USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*), (URL-REGEX,^http:\/\/.+\/amdc\/mobileDispatch$)),REJECT
 
 // Apple
 USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT

@@ -28,7 +28,16 @@ USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN,metrics.apple.com,REJECT
+DOMAIN,securemetrics.apple.com,REJECT
+DOMAIN,supportmetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
+DOMAIN,metrics.mzstatic.com,REJECT
+DOMAIN,dzc-metrics.mzstatic.com,REJECT
+DOMAIN,books-analytics-events.news.apple-dns.net,REJECT
+DOMAIN,books-analytics-events.apple.com,REJECT
+DOMAIN,stocks-analytics-events.apple.com,REJECT
+DOMAIN,stocks-analytics-events.news.apple-dns.net,REJECT
 
 // Baidu
 DOMAIN-SUFFIX,baidustatic.com,REJECT

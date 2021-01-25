@@ -14,7 +14,7 @@ Enabling [iOS OTA update blocker](https://raw.githubusercontent.com/TPCTPCTPC/Ad
 Add ```USER-AGENT,MobileAsset*,DIRECT``` on top of **AppleOTA.list** on your Surge Module or configuration. This method is yet to be tested and may not work on Quantumult X due to rules loading priority ([V2EX Discussion #62](https://www.v2ex.com/t/642077)).
 
 ### [Solution 2]
-Block iOS system update package downloading only, while update information can still be displayed without showing the badge on Setting app. [AppleOTA.list](https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs/AppleOTA.list) is unnecessary in this solution. It has been tested on an iOS 12 device with Surge 4. MITM is required. Surge Module Example is [Here](https://raw.githubusercontent.com/TPCTPCTPC/surgemodule-examples/main/iOS-OTA-Blocker.sgmodule)
+Block iOS system update package downloading only, while update information can still be displayed without showing the badge on Setting app. [AppleOTA.list](https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/DOMAINs/AppleOTA.list) is unnecessary in this solution. It has been tested on an iOS 12 device with Surge 4. MITM is required. Surge Module Example is [Here](https://raw.githubusercontent.com/TPCTPCTPC/surgemodule-examples/main/iOS-OTA-Blocker.sgmodule).
 
 ```
 URL-REGEX,^https:\/\/mesu\.apple\.com\/assets\/com_apple_MobileAsset_SoftwareUpdate\/,REJECT

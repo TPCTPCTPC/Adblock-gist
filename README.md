@@ -87,6 +87,7 @@ ADBLOCK-GIST now supports QX with *[domain rules](https://github.com/TPCTPCTPC/A
 - [domain-list-community](https://github.com/v2ray/domain-list-community)
 - [Lãng Khách](https://github.com/langkhach270389/Scripting/tree/master/Surge)
 - [lhie1](https://github.com/lhie1/Rules)
+- [NextDNS](https://github.com/nextdns/metadata)
 - [onewayticket255](https://github.com/onewayticket255/Surge-Script)
 - [primovist](https://github.com/primovist/ScriptsForSurge)
 - [Yachen Liu](https://manual.nssurge.com/)

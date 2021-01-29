@@ -1,4 +1,5 @@
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/mcn
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad))
+URL-REGEX,^https:\/\/118\.89\.204\.198\/
 
-// hostname = %APPEND% ap*.zhihu.com, www.zhihu.com
+// hostname = %APPEND% ap*.zhihu.com, www.zhihu.com, 118.89.204.198

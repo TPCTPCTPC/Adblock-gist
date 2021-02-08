@@ -2,4 +2,6 @@ hostname = ap*.zhihu.com, www.zhihu.com, 118.89.204.198
 
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/mcn url reject-200
 ^https?:\/\/api\.zhihu\.com\/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)) url reject-200
-^https:\/\/118\.89\.204\.198\/ uro reject-200
+^https:\/\/118\.89\.204\.198\/resolv\?host=mqtt\.zhihu\.com url reject-200
+^https:\/\/118\.89\.204\.198\/resolv\?host=sugar\.zhihu\.com url reject-200
+^https:\/\/118\.89\.204\.198\/resolv\?host=zhihu-web-analytics\.zhihu\.com url reject-200

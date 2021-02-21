@@ -2,3 +2,4 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
 DOMAIN,static-s.iqiyi.com,REJECT
+AND,((DOMAIN-SUFFIX,iqiyi.com), (DOMAIN-KEYWORD,cupid)),REJECT

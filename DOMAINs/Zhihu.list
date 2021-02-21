@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,tdnsv5.com,REJECT
+//DOMAIN-SUFFIX,tdnsv5.com,REJECT
 DOMAIN,crash2.zhihu.com,REJECT
 DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT

@@ -69,7 +69,6 @@ DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN,3gimg.qq.com,REJECT
 DOMAIN,fusion.qq.com,REJECT
-DOMAIN,wup.imtt.qq.com,REJECT
 DOMAIN,weixinbridge.com,REJECT
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg)),REJECT
 

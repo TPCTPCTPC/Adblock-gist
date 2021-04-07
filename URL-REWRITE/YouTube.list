@@ -1,7 +1,7 @@
 hostname = *.googlevideo.com,*.youtube.com,www.googleapis.com
 
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
+
 ^https?:\/\/.+\.googlevideo\.com\/ptracking url reject-200
 ^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject-200
 ^https?:\/\/.+\.youtube\.com\/.+adformat url reject-200

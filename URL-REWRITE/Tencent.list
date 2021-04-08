@@ -1,7 +1,7 @@
 hostname = *.weixin.qq.com
 
 ^https?:\/\/.+extshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-200
-^https?:\/\/.+\.weixin\.qq\.com\/mp\/.+report\? url reject-200
+^https?:\/\/.+\.weixin\.qq\.com\/.+report\? url reject-200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+relatedarticle\? url reject-200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+ad\? url reject-200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+monitor\? url reject-200

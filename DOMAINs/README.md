@@ -25,4 +25,7 @@ hostname = mesu.apple.com
 ```
 
 ## These rules do not support *Quantumult X*, load them with js parser.
-```Netease_Music.list```, ```Zhihu.list```
+```Zhihu.list```
+
+## Netease Music rules are deleted
+This set is considered too risky to use. I found it blocked too many functions and elements, such as editing profile and commenting. Works fine without this set in one year testing, so I delete it.

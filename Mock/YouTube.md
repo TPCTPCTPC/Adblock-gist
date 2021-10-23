@@ -20,15 +20,9 @@
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/log_event data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+\.googleapis\.com\/youtubei\/v1\/issuetoken data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
-[Script]
-// hostname = %APPEND% *.googlevideo.com
-YouTube ADB(By Choler) = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
+[URL Rewrite]
+(^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com,*.youtube.com,www.googleapis.com
 ```
-
-### NOTE: Disable [Script] if you are a *YouTube Premium* member.
-
-## Credit:
-[Choler](https://raw.githubusercontent.com/Choler/Surge/master/Module/youtube.sgmodule)

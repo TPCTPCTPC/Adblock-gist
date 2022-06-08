@@ -6,6 +6,12 @@ DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT-DROP
 
 [Header Rewrite]
 ^*.weixin.qq.com header-del Referer
+^*.weixin.qq.com header-del exportkey
+^*.weixin.qq.com header-del User-Agent
+//^*.weixin.qq.com header-del Cookie （cannot load comments）
+^*.weixin.qq.com header-del X-WECHAT-ACCTMODE
+^*.weixin.qq.com header-del X-WECHAT-UIN
+^*.weixin.qq.com header-del X-WECHAT-KEY
 
 [Map Local]
 ^(http|https):\/\/dns.weixin.qq.com\/cgi-bin\/micromsg-bin\/newgetdns data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"

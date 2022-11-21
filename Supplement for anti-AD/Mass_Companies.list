@@ -22,6 +22,7 @@ DOMAIN,tejia.taobao.com,REJECT
 DOMAIN,tyh.taobao.com,REJECT
 DOMAIN-SUFFIX,simba.taobao.com,REJECT
 AND,((USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*), (URL-REGEX,^http:\/\/.+\/amdc\/mobileDispatch$)),REJECT
+DOMAIN-KEYWORD,nbsdk-baichuan
 
 // Apple
 USER-AGENT,com.apple.AppStore.ProductPageExtension*,REJECT
@@ -38,6 +39,20 @@ DOMAIN,books-analytics-events.news.apple-dns.net,REJECT
 DOMAIN,books-analytics-events.apple.com,REJECT
 DOMAIN,stocks-analytics-events.apple.com,REJECT
 DOMAIN,stocks-analytics-events.news.apple-dns.net,REJECT
+DOMAIN,api-adservices.apple.com,REJECT
+DOMAIN,books-analytics-events.apple.com,REJECT
+DOMAIN,iadsdk.apple.com,REJECT
+DOMAIN,ca.iadsdk.apple.com,REJECT
+DOMAIN,cf.iadsdk.apple.com,REJECT
+DOMAIN,tr.iadsdk.apple.com,REJECT
+DOMAIN,notes-analytics-events.apple.com,REJECT
+DOMAIN,weather-analytics-events.apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+DOMAIN,feedbackws.fe.apple-dns.net,REJECT
+DOMAIN,weather-analytics-events.news.apple-dns.net,REJECT
+DOMAIN,acfeedbackws.icloud.com,REJECT
+DOMAIN,feedbackws.icloud.com,REJECT
+DOMAIN,dzc-metrics.mzstatic.com,REJECT
 
 // Baidu
 DOMAIN-SUFFIX,baidustatic.com,REJECT
@@ -52,6 +67,7 @@ DOMAIN-SUFFIX,googletagmanager.com,REJECT
 DOMAIN-SUFFIX,googletagservices.com,REJECT
 DOMAIN,mtalk.google.com,REJECT
 DOMAIN,suggestqueries.google.com,REJECT
+AND, ((OR,((DOMAIN-SUFFIX,gvt0.com),(DOMAIN-SUFFIX,gvt2.com),(DOMAIN-SUFFIX,gvt3.com))),(DOMAIN-KEYWORD,beacon)),REJECT
 
 // Mi
 DOMAIN-SUFFIX,tracking.miui.com,REJECT
@@ -71,6 +87,8 @@ DOMAIN,3gimg.qq.com,REJECT
 DOMAIN,fusion.qq.com,REJECT
 DOMAIN,weixinbridge.com,REJECT
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg)),REJECT
+DOMAIN-KEYWORD,wxsnsdy,REJECT
+AND, ((DOMAIN-SUFFIX,msa.cdn.mediaset.net), (DOMAIN-KEYWORD,adv0)),REJECT
 
 // Twitter
 DOMAIN-SUFFIX,ads.twitter.com,REJECT

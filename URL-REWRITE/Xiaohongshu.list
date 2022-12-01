@@ -1,0 +1,3 @@
+hostname = *.xiaohongshu.com
+
+^https?:\/\/.+\.xiaohongshu\.com\/.+(collect|metrics|report|Report) url reject-200

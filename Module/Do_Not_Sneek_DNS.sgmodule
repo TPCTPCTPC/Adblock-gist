@@ -1,0 +1,5 @@
+#!name=Do Not Sneek DNS
+#!desc=Some apps (e.g. Netflix) bypass Surge's DNS settings and look up DNS (8.8.8.8) themselves, here is a way to block em.
+
+[Rule]
+AND,((PROTOCOL,UDP), (DEST-PORT,53)),REJECT-NO-DROP

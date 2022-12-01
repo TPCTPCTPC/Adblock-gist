@@ -5,4 +5,5 @@ hostname = *.weixin.qq.com
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+relatedarticle\? url reject-200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+ad\? url reject-200
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+monitor\? url reject-200
-^https?:\/\/mp\.weixin\.qq\.com\/bizmall\/reward\? url reject-200
+^https?:\/\/.+\.weixin\.qq\.com\/mp\/cps_product_info url reject-200
+^(http|https):\/\/dns.weixin.qq.com\/cgi-bin\/micromsg-bin\/newgetdns url reject-200

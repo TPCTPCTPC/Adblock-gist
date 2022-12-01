@@ -7,7 +7,7 @@ Inspired by [ahhhhfs](https://twitter.com/abskoop?s=21&t=esRqUThzMpyQA1ZRbCUaLQ)
 Blocking Trackers & unlock PiP on YouTube. If you are looking for YT Adblocker, I recommend [Maasea's](https://github.com/Maasea/sgmodule/raw/master/YoutubeAds.sgmodule).
 
 ### Do-Not-Sneek DNS
-I found Netflix keeps looking up 8.8.8.8 when playing, so I block it.
+I found Netflix keeps looking up 8.8.8.8 when streaming, so I block it.
 
 ### Do-Not-Track My Xiaohongshu
 It collects my personal data all the time, so I block it.

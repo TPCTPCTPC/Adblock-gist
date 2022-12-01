@@ -2,7 +2,7 @@
 #! desc=Blocking & removing WeChat articles' reports, referer and suggestions.
 
 [Rule]
-DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT-TINYGIF
 
 [Header Rewrite]
 ^*.weixin.qq.com header-del Referer
@@ -13,15 +13,16 @@ DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT-DROP
 ^*.weixin.qq.com header-del X-WECHAT-UIN
 ^*.weixin.qq.com header-del X-WECHAT-KEY
 
+[URL Rewrite]
+^https?:\/\/.+\.weixin\.qq\.com\/.+report - reject
+^https?:\/\/.+\.weixin\.qq\.com\/mp\/cps_product_info - reject
+^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedarticle - reject
+
 [Map Local]
-^(http|https):\/\/dns.weixin.qq.com\/cgi-bin\/micromsg-bin\/newgetdns data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/.+extshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/.+\.weixin\.qq\.com\/.+report data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedarticle data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+ad\? data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+monitor\? data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/mp\.weixin\.qq\.com\/bizmall\/reward\? data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/appmsg_weapp data="https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/Mock/empty.json"
 
 [MITM]
 hostname = %APPEND% *.weixin.qq.com

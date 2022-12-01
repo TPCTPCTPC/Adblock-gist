@@ -1,0 +1,3 @@
+URL-REGEX,^https?:\/\/.+\.xiaohongshu\.com\/.+(collect|metrics|report|Report)
+
+//hostname = *.xiaohongshu.com

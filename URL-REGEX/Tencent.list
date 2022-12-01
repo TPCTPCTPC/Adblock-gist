@@ -2,6 +2,7 @@ URL-REGEX,^https?:\/\/.+extshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
 URL-REGEX,^https?:\/\/.+\.weixin\.qq\.com\/.+report\?
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+ad\?
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/.+monitor\?
-URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/bizmall\/reward\?
+URL-REGEX,^https?:\/\/.+\.weixin\.qq\.com\/mp\/cps_product_info
+URL-REGEX,^(http|https):\/\/dns.weixin.qq.com\/cgi-bin\/micromsg-bin\/newgetdns
 
 // hostname = %APPEND% *.weixin.qq.com

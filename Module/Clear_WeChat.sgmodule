@@ -1,5 +1,5 @@
-#! name=Clear WeChat
-#! desc=Blocking & removing WeChat articles' reports, referer and suggestions.
+#!name=Clear WeChat
+#!desc=Blocking & removing WeChat articles' reports, referer and suggestions.
 
 [Rule]
 DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT-TINYGIF

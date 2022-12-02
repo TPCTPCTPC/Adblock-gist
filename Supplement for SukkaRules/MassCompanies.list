@@ -1,0 +1,27 @@
+// Alibaba
+DOMAIN,g.click.taobao.com
+DOMAIN-SUFFIX,simba.taobao.com
+AND,((USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*), (URL-REGEX,^http:\/\/.+\/amdc\/mobileDispatch$))
+DOMAIN-KEYWORD,nbsdk-baichuan
+
+// Apple
+USER-AGENT,com.apple.AppStore.ProductPageExtension*
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SET,https://github.com/hagezi/dns-blocklists/raw/main/domains/native.apple.txt
+
+// Facebook
+DOMAIN-SUFFIX,staticxx.facebook.com
+
+// Google
+AND, ((OR,((DOMAIN-SUFFIX,gvt0.com),(DOMAIN-SUFFIX,gvt2.com),(DOMAIN-SUFFIX,gvt3.com))),(DOMAIN-KEYWORD,beacon))
+
+// Tencent
+USER-AGENT,TencentConnect*
+DOMAIN,fusion.qq.com
+DOMAIN,weixinbridge.com
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
+DOMAIN-KEYWORD,wxsnsdy
+AND, ((DOMAIN-SUFFIX,msa.cdn.mediaset.net), (DOMAIN-KEYWORD,adv0))

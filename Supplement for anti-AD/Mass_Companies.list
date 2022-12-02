@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 DOMAIN,metrics.apple.com,REJECT
 DOMAIN,securemetrics.apple.com,REJECT
+DOMAIN,securemvt.apple.com,REJECT
 DOMAIN,supportmetrics.apple.com,REJECT
 DOMAIN,metrics.icloud.com,REJECT
 DOMAIN,metrics.mzstatic.com,REJECT
@@ -47,7 +48,6 @@ DOMAIN,cf.iadsdk.apple.com,REJECT
 DOMAIN,tr.iadsdk.apple.com,REJECT
 DOMAIN,notes-analytics-events.apple.com,REJECT
 DOMAIN,weather-analytics-events.apple.com,REJECT
-DOMAIN,xp.apple.com,REJECT
 DOMAIN,feedbackws.fe.apple-dns.net,REJECT
 DOMAIN,weather-analytics-events.news.apple-dns.net,REJECT
 DOMAIN,acfeedbackws.icloud.com,REJECT

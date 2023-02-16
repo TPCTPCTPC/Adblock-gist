@@ -2,7 +2,7 @@
 ## Alibaba
 DOMAIN,g.click.taobao.com
 DOMAIN-SUFFIX,simba.taobao.com
-URL-REGEX,^http:\/\/.+\/amdc\/mobileDispatch$
+URL-REGEX,\/amdc\/mobileDispatch
 DOMAIN-KEYWORD,nbsdk-baichuan
 
 ## Apple
